@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { background: #050705; color: #f6f4ec; }
+.card { @apply rounded-2xl border border-white/10 bg-white/[0.04] shadow-xl shadow-black/20; }
+.btn-primary { @apply rounded-full bg-dna-green px-6 py-3 font-bold text-dna-black hover:bg-lime-300 transition; }
+.btn-secondary { @apply rounded-full border border-white/30 px-6 py-3 font-bold text-white hover:bg-white/10 transition; }
