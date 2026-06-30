@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root { color-scheme: dark; }
-body { margin: 0; background: #071008; color: #f7faf5; }
-.card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); }
-.light-card { background: #fff; color: #111; border: 1px solid #e5e7eb; }
