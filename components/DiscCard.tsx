@@ -1,4 +1,4 @@
-import type { Disc } from '@/lib/discs';
+import type { Disc } from '../lib/discs';
 
 export function DiscCard({ disc }: { disc: Disc }) {
   return (
