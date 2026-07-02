@@ -1,5 +1,5 @@
-import { DiscCard } from '@/components/DiscCard';
-import { featuredDiscs } from '@/lib/discs';
+import { DiscCard } from '../../components/DiscCard';
+import { featuredDiscs } from '../../lib/discs';
 
 export default function ShopPage() {
   return (
